@@ -3832,6 +3832,7 @@ flexibility(document.documentElement);
                                         class="elementor-section elementor-inner-section elementor-element elementor-element-27580f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                         data-id="27580f2" data-element_type="section">
                                         <div class="elementor-container elementor-column-gap-wider">
+                                            <!-- 人間関係・コミュニケーション〜初級編〜 -->
                                             <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e1e3ab4"
                                                 data-id="e1e3ab4" data-element_type="column"
                                                 data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -3922,7 +3923,9 @@ flexibility(document.documentElement);
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <button class="modal-open" id="js-open">モーダルウィンドウオープン</button>
                                             </div>
+                                            <!-- 人間関係・コミュニケーション〜上級編〜 -->
                                             <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-45b6bfd"
                                                 data-id="45b6bfd" data-element_type="column" >
                                                 <div class="elementor-widget-wrap elementor-element-populated">
@@ -4843,6 +4846,17 @@ flexibility(document.documentElement);
                                             </div>
                                         </div>
                                     </section>
+                                    <div class="overlay" id="js-overlay"></div>
+                                    <div class="modal" id="js-modal">
+                                        <div class="modal-close__wrap">
+                                            <button class="modal-close" id="js-close">
+                                                <span></span>
+                                                <span></span>
+                                            </button>
+                                        </div>
+                                        <p>コンテンツ・内容が入ります。</p>
+                                    </div>
+
                                 </div>
 
 
@@ -4971,6 +4985,9 @@ flexibility(document.documentElement);
     <script>
         /(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function () { var t, e = location.hash.substring(1); /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus()) }, !1);
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="modal.css">
+    <script type='text/javascript' src='modal.js'></script>
 </body>
 
 </html>
