@@ -62,8 +62,8 @@
 }
 .modal-open {
     cursor: pointer;
-    background: orange;
-    border: orange;
+    background: #fff;
+    border: #fff;
     color: #fff;
     padding: 10px 12px;
 }
