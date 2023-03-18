@@ -1,4 +1,13 @@
-.overlay {
+/*
+Theme Name: Astra child
+Description: custom thema for nbaku.makenexus.com
+Template: astra
+Author: kuri-megane
+Author URI: https://github.com/kuri-megane
+Version: 4.0.2
+*/
+
+.up-overlay {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -10,7 +19,8 @@
     left: 0;
     right: 0;
 }
-.modal {
+
+.up-modal {
     width: 65%;
     height: 80%;
     border: 1px solid #000;
@@ -22,7 +32,8 @@
     display: none;
     padding: 20px;
 }
-.modal p {
+
+.up-modal p {
     /* position: absolute; */
     top: 50%;
     left: 50%;
@@ -31,13 +42,15 @@
     /* z-index: 10; */
     font-size: 14px;
 }
-.modal-close__wrap {
+
+.up-modal-close__wrap {
     position: absolute;
     right: 40px;
     top: 20px;
     z-index: 1;
 }
-.modal-close {
+
+.up-modal-close {
     background: transparent;
     border-color: transparent;
     padding: 0;
@@ -47,29 +60,35 @@
     display: block;
     height: 28px;
 }
-.modal-close span {
+
+.up-modal-close span {
     position: relative;
     width: 100%;
     height: 1px;
     background: black;
     display: block;
 }
-.modal-close span:nth-child(1) {
+
+.up-modal-close span:nth-child(1) {
     transform: rotate(45deg);
 }
-.modal-close span:nth-child(2) {
+
+.up-modal-close span:nth-child(2) {
     transform: rotate(-45deg);
 }
-.modal-open {
+
+.up-modal-open {
     cursor: pointer;
     background: #fff;
     border: #fff;
     color: #fff;
     padding: 10px 12px;
 }
-.overlay.open {
+
+.up-overlay.open {
     display: block;
 }
-.modal.open {
+
+.up-modal.open {
     display: block;
 }

@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  backup_db:
+    image: mysql:5.7
+    volumes:
+      - backup_db_data:/var/lib/mysql
+      - ./backup_data:/backup_data
+    restart: always
+    ports:
+      - "3310:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: megane
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: megane
+      MYSQL_PASSWORD: megane
+
+volumes:
+  backup_db_data:
