@@ -60,4 +60,83 @@ jQuery(function () {
         modal_4.removeClass("open");
         overlay_4.removeClass("open");
     });
+
+    const open_5 = $("#js-open-5");
+    const overlay_5 = $("#js-overlay-5");
+    const modal_5 = $("#js-modal-5");
+    const close_5 = $("#js-close-5");
+    open_5.on('click', function () {
+        modal_5.addClass("open");
+        overlay_5.addClass("open");
+    });
+    close_5.on('click', function () {
+        modal_5.removeClass("open");
+        overlay_5.removeClass("open");
+    });
+
+    const open_6 = $("#js-open-6");
+    const overlay_6 = $("#js-overlay-6");
+    const modal_6 = $("#js-modal-6");
+    const close_6 = $("#js-close-6");
+    open_6.on('click', function () {
+        modal_6.addClass("open");
+        overlay_6.addClass("open");
+    });
+    close_6.on('click', function () {
+        modal_6.removeClass("open");
+        overlay_6.removeClass("open");
+    });
+
+    const open_7 = $("#js-open-7");
+    const overlay_7 = $("#js-overlay-7");
+    const modal_7 = $("#js-modal-7");
+    const close_7 = $("#js-close-7");
+    open_7.on('click', function () {
+        modal_7.addClass("open");
+        overlay_7.addClass("open");
+    });
+    close_7.on('click', function () {
+        modal_7.removeClass("open");
+        overlay_7.removeClass("open");
+    });
+
+    const open_8 = $("#js-open-8");
+    const overlay_8 = $("#js-overlay-8");
+    const modal_8 = $("#js-modal-8");
+    const close_8 = $("#js-close-8");
+    open_8.on('click', function () {
+        modal_8.addClass("open");
+        overlay_8.addClass("open");
+    });
+    close_8.on('click', function () {
+        modal_8.removeClass("open");
+        overlay_8.removeClass("open");
+    });
+
+    const open_9 = $("#js-open-9");
+    const overlay_9 = $("#js-overlay-9");
+    const modal_9 = $("#js-modal-9");
+    const close_9 = $("#js-close-9");
+    open_9.on('click', function () {
+        modal_9.addClass("open");
+        overlay_9.addClass("open");
+    });
+    close_9.on('click', function () {
+        modal_9.removeClass("open");
+        overlay_9.removeClass("open");
+    });
+
+    const open_0 = $("#js-open-0");
+    const overlay_0 = $("#js-overlay-0");
+    const modal_0 = $("#js-modal-0");
+    const close_0 = $("#js-close-0");
+    open_0.on('click', function () {
+        modal_0.addClass("open");
+        overlay_0.addClass("open");
+    });
+    close_0.on('click', function () {
+        modal_0.removeClass("open");
+        overlay_0.removeClass("open");
+    });
+
 });
